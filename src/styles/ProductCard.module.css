@@ -1,3 +1,47 @@
-/* TODO: Style the product card container */
+/* General styling for product cards */
+.productCard {
+  padding: 16px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
 
-/* TODO: Add special styling for out-of-stock products */
+/* Styling for in-stock products */
+.inStock {
+  background-color: #e8f5e9; /* Light green */
+  border: 2px solid #4caf50; /* Green */
+  color: #2e7d32;
+}
+
+/* Styling for out-of-stock products */
+.outOfStock {
+  background-color: #ffebee; /* Light red */
+  border: 2px solid #e53935; /* Red */
+  color: #b71c1c;
+}
+
+/* Ensure test compatibility */
+.outOfStockClass {
+  background-color: #ffebee;
+  border: 2px solid #e53935;
+  color: #b71c1c;
+}
+
+/* Button styling */
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Button styling for remove action */
+button:hover {
+  background-color: #d32f2f;
+  color: white;
+}
